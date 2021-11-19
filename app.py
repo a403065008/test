@@ -11,3 +11,7 @@ def main():
 @dog.route('/home')
 def hello():
     return render_template('test.html')
+
+if __name__=='__main__':
+    dog.run()
+    
